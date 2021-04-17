@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.blogspot.codergists.service.StudentServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-04-17T00:18:01" hostname="tvajjala.local" time="0.97">
-  <properties/>
-  <testcase name="getStudentByIdTest()" classname="com.blogspot.codergists.service.StudentServiceTest" time="0.97"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
