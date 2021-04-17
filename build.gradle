@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+group 'com.blogspot.codergists'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation "org.junit.vintage:junit-vintage-engine:${junitJupiterVersion}"  // to run Junit4 tests
+    testImplementation "org.junit.jupiter:junit-jupiter:${junitJupiterVersion}" // to run Jupiter(Junit5) tests
+    testImplementation "org.mockito:mockito-junit-jupiter:${mockitoJupiterVersion}" // for mock library
+    testImplementation "org.mockito:mockito-inline:${mockitoJupiterVersion}" // for static method mocking
+}
+
+test {
+    useJUnitPlatform()
+}
