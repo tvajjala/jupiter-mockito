@@ -1,6 +1,4 @@
-:highlightjs-theme: dracula
-:source-highlighter: highlightjs
-:toc:
+
 
 ## Architecture
 
